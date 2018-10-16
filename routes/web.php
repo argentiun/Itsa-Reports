@@ -14,3 +14,14 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+// Route::get("btc", function(){
+//     $posts= DB::connection('btc')->select("select * from pedido where idempresa = 47 and idpedido >= 90000");
+//     dd($posts);
+//     var_dump($posts);
+// });
+
+// Route::get("mysql", function(){
+//     $posts= DB::connection('mysql')->select("select * from zonas");
+//             dd($posts);
+// });
